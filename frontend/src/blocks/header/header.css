@@ -1,0 +1,30 @@
+.header {
+    margin: 0 auto;
+    max-width: 880px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(84, 84, 84, .7);
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+    .header {
+        padding-top: calc((100vw - 320px) / (1280 - 320) * (45 - 28) + 28px);
+        padding-bottom: calc((100vw - 320px) / (1280 - 320) * (40 - 42) + 42px);
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .header {
+        padding: 35px 33px 35px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        flex-direction: column-reverse;
+        padding: 28px 0;
+    }
+}

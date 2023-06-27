@@ -1,0 +1,34 @@
+.profile__add-btn {
+    padding: 0;
+    margin-left: auto;
+    width: 150px;
+    height: 50px;
+    background-image: url(../../../images/profile-add-btn.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    transition: opacity .5s ease;
+}
+
+/* Сумма элементов по ширине блока profile */
+@media screen and (max-width: calc(120px + 30px + 294px + 18px + 24px + 30px + 150px)) {
+    .profile__add-btn {
+        background-size: calc((100vw - 320px) / (1280 - 320) * (22 - 16) + 16px) calc((100vw - 320px) / (1280 - 320) * (22 - 16) + 16px);
+    }
+}
+
+/* Сумма элементов по ширине блока profile */
+@media screen and (max-width: calc(120px + 30px + 294px + 18px + 24px + 30px + 150px)) {
+    .profile__add-btn {
+        margin-top: 7px;
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+.profile__add-btn:hover {
+    cursor: pointer;
+    opacity: .6;
+}

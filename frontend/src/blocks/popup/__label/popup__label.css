@@ -1,0 +1,9 @@
+.popup__label {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.popup__label:not(:first-of-type) {
+    margin-top: 31px;
+}

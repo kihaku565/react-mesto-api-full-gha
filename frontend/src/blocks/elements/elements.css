@@ -1,0 +1,9 @@
+.elements {
+    margin-top: 51px;
+}
+
+@media screen and (max-width: 1280px) {
+    .elements {
+        margin-top: calc((100vw - 320px) / (1280 - 320) * (51 - 35) + 35px);
+    }
+}

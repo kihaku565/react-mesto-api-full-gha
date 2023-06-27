@@ -1,0 +1,16 @@
+.profile__info {
+    max-width: calc((244px + 336px) - 30px);
+    display: grid;
+    align-items: baseline;
+    grid-template-columns: 1fr 24px;
+    gap: 16px 18px;
+    padding-left: 30px;
+}
+
+/* Сумма элементов по ширине блока profile */
+@media screen and (max-width: calc(120px + 30px + 294px + 18px + 24px + 30px + 150px)) {
+    .profile__info {
+        justify-items: center;
+        gap: 8px 10px;
+    }
+}

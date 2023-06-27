@@ -1,0 +1,21 @@
+.header__logo {
+    max-width: 142px;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__logo {
+        max-width: calc((100vw - 320px) / (1280 - 320) * (142 - 103.74) + 103.74px);
+    }
+}
+
+@media screen and (min-width: 880px) and (max-width: 934px) {
+    .header__logo {
+        margin-left: calc((100vw - 880px) / (934 - 880) * (0 - 27) + 27px);
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .header__logo {
+        margin-left: 27px;
+    }
+}

@@ -1,0 +1,19 @@
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+@media screen and (max-width: 918px) {
+    .profile {
+        padding: 0 19px;
+    }
+}
+
+/* Сумма элементов по ширине блока profile */
+@media screen and (max-width: calc(120px + 30px + 294px + 18px + 24px + 30px + 150px)) {
+    .profile {
+        flex-direction: column;
+        gap: 26px;
+    }
+}
