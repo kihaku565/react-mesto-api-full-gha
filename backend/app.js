@@ -9,7 +9,7 @@ const router = require('./routes/routes');
 const errorHandler = require('./middlewares/error-handler');
 const { requestLogger, errorLogger } = require('./middlewares/logger');
 
-const { PORT = 3000 } = process.env; // Слушаем 3000 порт
+const { PORT = 4000 } = process.env; // Слушаем 4000 порт
 
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // за 15 минут
