@@ -93,9 +93,9 @@ class Api {
 }
 
 const settingUserApi = {
-    baseUrl: 'https://mesto.nomoreparties.co/v1/cohort-61',
+    baseUrl: 'https://api.mesto.matyushkin.nomoreparties.sbs',
     headers: {
-        authorization: '289bb7e8-7dbc-4f85-89cd-2ceeadf444c4', 'Content-Type': 'application/json'
+        'Content-Type': 'application/json'
     }
 }
 

@@ -1,4 +1,4 @@
-const BASE_URL = "https://auth.nomoreparties.co";
+const BASE_URL = "https://api.mesto.matyushkin.nomoreparties.sbs";
 
 const onError = res => {
     if (res.ok) {

@@ -21,11 +21,12 @@ const app = express();
 app.use(cors());
 
 app.use(helmet()); // настраиваем заголовки
-app.use(limiter); // подключаем rate-limiter
 
 app.use(express.json()); // для собирания JSON-формата
 
 app.use(requestLogger); // подключаем логгер запросов
+
+app.use(limiter); // подключаем rate-limiter
 
 app.use(router);
 
