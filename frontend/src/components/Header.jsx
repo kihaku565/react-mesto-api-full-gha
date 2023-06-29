@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Link, Route, Routes, useLocation } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 import logo from "../images/header-logo.svg";
 import { useMediaQuery } from 'react-responsive';
 
 function Header({ loggedIn, email, onSignOut }) {
-
-    const { pathname } = useLocation();
 
     const [isMenuOpened, setIsMenuOpened] = useState(false);
 

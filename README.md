@@ -11,6 +11,6 @@
 
 IP-адрес 158.160.4.43
 
-Frontend http://mesto.matyushkin.nomoredomains.work
+Frontend https://mesto.matyushkin.nomoredomains.work
 
 Backend https://api.mesto.matyushkin.nomoreparties.sbs
